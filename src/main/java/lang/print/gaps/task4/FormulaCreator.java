@@ -2,12 +2,8 @@ package lang.print.gaps.task4;
 
 public class FormulaCreator {
     public static void main(String[] args) {
-        long first = 10_000_000_000L;
-        int second = 'a';
-        boolean third = 5 > 9;
-        double forth = 12.90434323324342;
-        float fifth = 12.3F;
-        byte sixth = 1;
-        short seventh = 129;
+        int a;
+        int b;
+        int c = (9 * Math.pow(a, 2) - 5 * b + 2 + a - 7) * ((a + b - 4 * a * b) / 2);
     }
 }
